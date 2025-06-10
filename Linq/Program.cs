@@ -22,7 +22,7 @@
         }
         Console.WriteLine();
         Console.WriteLine("Tek sayılar");
-        var oddNumbers = numbers.Where(num => num % 2 == 1);
+        var oddNumbers = numbers.Where(num => num % 2 != 0);
         foreach (var number in oddNumbers)
         {
             Console.Write(number+" ");
